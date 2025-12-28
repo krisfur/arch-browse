@@ -22,3 +22,5 @@ cd yay
 makepkg -si
 cd .. && rm -rf yay
 ```
+
+Inspired by the installer as seen in `Omarchy` ([github](https://github.com/basecamp/omarchy)).
