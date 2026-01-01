@@ -9,7 +9,7 @@ yay -Ss "$1" --topdown --color=always 2>&1 \
 '
 
 rm -f /tmp/arch-browser-selection
-fzf --ansi \
+SHELL=/bin/bash fzf --ansi \
     --disabled \
     --header="BROWSE PACKAGES (Tab: Select | Enter: Install)" \
     --prompt="Search > " \
